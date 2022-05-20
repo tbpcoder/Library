@@ -1,0 +1,80 @@
+:root{
+    --b:rgb(56, 122, 197);
+    --db:rgb(32, 62, 82);
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.full{
+    height: 100%;
+    background-color: var(--db);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    background-color: var(--b);
+    color: white;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bod{
+    display: flex;
+    position: relative;
+}
+
+.left{
+    position: relative;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px 40px;
+}
+
+form > *{
+    margin: 10px;
+}
+
+.right{
+    width: 200%;
+}
+
+.header > p{
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#sub{
+    border-style: none;
+    background-color: var(--b);
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+form > #x{
+    background-color: rgb(241, 241, 241);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
