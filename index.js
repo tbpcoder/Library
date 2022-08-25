@@ -54,13 +54,6 @@ Book.prototype.info = function(){
     del.setAttribute("onClick", "deletebook(this.parentNode.id)")
     read.setAttribute("onClick", "changeText(this.parentNode.id)")
 
-    // del.addEventListener('click', function handleClick(event) {
-    //     console.log(event.target.parentElement.innerHTML);
-    //   });
-    // read.addEventListener('click', function handleClick(event) {
-    //     console.log(event.target.parentElement);
-    //   });
-
     div.appendChild(head)
     div.appendChild(title)
     div.appendChild(author)
