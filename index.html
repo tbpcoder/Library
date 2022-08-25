@@ -12,24 +12,24 @@
         </div>
         <div class="bod">
             <div class="left">
-                <form action="index.js" method="post">
+                <form id = "form">
                     <span style="font-size: 200%; color: var(--b)">New Book</span>
                     <label>Title:</label>
-                    <input id="x" type="text">
+                    <input id="title" type="text" required>
                     <label>Author:</label>
-                    <input id="x" type="text">
+                    <input id="author" type="text" required>
                     <label>Number of pages:</label>
-                    <input id="x" type="number">
-                    <label >Read the Book:</label>
-                    <select name="cars" id="cars">
+                    <input id="pages" type="number" required>
+                    <label>Read the Book:</label>
+                    <select name="read" id="read">
                         <option value="read">read</option>
                         <option value="not_read">not read</option>
                     </select>
                     <input id=sub type="submit" value="Submit">
                 </form>
             </div>
-            <div class="right">
-
+            <div id="right">
+                
             </div>
         </div>
     </div>

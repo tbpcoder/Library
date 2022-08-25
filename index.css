@@ -29,31 +29,38 @@ body, html{
 
 .bod{
     display: flex;
-    position: relative;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
 
 .left{
-    position: relative;
+    width: max(35%, 300px);
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
 }
-
 
 form{
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 20%;
-    left: 5%;
+    margin: auto;
     background-color: white;
     border-radius: 5px;
-    padding: 50px 40px;
+    padding: 5% 4%;
+    width: max(70%, 300px);
 }
 
 form > *{
     margin: 10px;
 }
 
-.right{
-    width: 200%;
+#right{
+    width: 100%;
+    display: grid;
+    height: 100%;
 }
 
 .header > p{
@@ -77,4 +84,15 @@ form > #x{
     border-style: none;
     border-radius: 5px;
     font-size: 18px;
+}
+#right div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    
+} 
+
+#right{
+    display: grid;
 }
